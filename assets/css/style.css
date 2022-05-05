@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif; 
+}
+
+.bg-nav{
+    background-color: #373A3C;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+	color: #ffffff;
+    font-size: 2rem;
+}
+
+.title{
+    color: #373A3C;
+    font-family: 'Cabin', sans-serif; 
+    font-size: 25pt;
+    text-align: center;
+}
+
+hr{
+	border: 1px dashed #000000;
+    
+}
+
+.minutes{
+    text-align: center;
+}
+
+.carousel-indicators{
+    top: 130px;
+	padding: 70px;
+	border-radius: 50px;
+}
+
+.carousel-indicators [data-bs-target]{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+    background-color: #373A3C;
+}
+
+/* Ingredientes */
+.line{
+	text-decoration: underline;
+	text-underline-offset: 8px;
+	padding: 2px;
+}
+
+.paragraph{
+	margin-top: 30px;
+    line-height: 37px;
+    word-spacing: 0.48pt;
+    font-weight: 16pt;
+}
+
+/* Recetas */
+.recetas_relacionadas{
+    font-size: 25px;
+    color: #373A3C;
+    font-weight: bold;
+}
+
+.card{
+    height:377.81px;
+}
+
+.card-title{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* Footer */
+.bg-footer{
+	height:400px;
+}
+
+.suscribe{
+	margin-top: 70px;
+}
+
+.mayuscula-suscribe{
+    font-size: 30pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.frase{
+	display: inline-block;
+}
+
+.boton{
+	width: 200px;
+	height: 40px;
+}
+
+/* Tamaño Escritorio */
+@media (min-width: 992px) {
+    .title{
+        color: #373A3C;
+        font-size: 40pt;
+        font-family: 'Cabin', sans-serif;
+        text-align: left;
+    }
+    .minutes{
+        text-align: left;
+    }
+    .paragraph{
+        line-height: 30px;
+        word-spacing: 0.6pt;
+        font-weight: 20pt;
+    }
+    .line{
+        margin-bottom: 30px;
+    }
+    .recetas_relacionadas{
+        font-size: 40px;
+        color: #373A3C;
+        font-weight: bold;
+    }
+}
